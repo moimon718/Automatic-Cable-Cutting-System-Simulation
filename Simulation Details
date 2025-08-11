@@ -1,0 +1,51 @@
+Simulation Details
+The Automatic Cable Cutting System Simulation demonstrates how an Arduino-based system can measure, feed, and cut cables automatically, using an ultrasonic sensor for precise length measurement. This is useful in manufacturing, wiring harness production, and automated workshops.
+
+🔹 Working Principle
+Cable Feeding
+
+A DC motor drives rollers to feed the cable forward.
+
+The feed speed is controlled by the Arduino using PWM.
+
+Length Measurement (Ultrasonic Sensor)
+
+An HC-SR04 ultrasonic sensor measures the distance the cable has traveled.
+
+The Arduino continuously monitors this distance until the set length is reached.
+
+Cutting Mechanism
+
+When the target length is reached, the DC motor stops.
+
+A servo motor activates the cutting blade to cut the cable.
+
+Reset for Next Cycle
+
+After cutting, the system resets automatically for the next cable piece.
+
+🔹 Components Used in Simulation
+Arduino Uno – main microcontroller
+
+HC-SR04 Ultrasonic Sensor – for measuring cable length
+
+DC Motor – for cable feeding
+
+Servo Motor – for cutting blade actuation
+
+Motor Driver Module – for controlling the DC motor
+
+Power Supply – for Arduino and motors
+
+Breadboard & Wires – for circuit connections
+
+🔹 Simulation in Tinkercad
+The design is created in Tinkercad Circuits.
+
+The .brd file contains the PCB layout for the system.
+
+The Arduino .ino code controls the motor feeding, ultrasonic measurement, and cutting process.
+
+The simulation can be run directly in Tinkercad to visualize the process.
+
+simulation file :https://www.tinkercad.com/things/7JWuCZnu4rf/editel?returnTo=%2Fdashboard&sharecode=v3-5Gzv9FNP2bBbDPQf1gx44GM-5eBMy9S4w8kl46F4
