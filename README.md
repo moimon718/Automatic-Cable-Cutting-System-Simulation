@@ -25,7 +25,7 @@ Edit
 ## 🚀 How to Use
 1. **Open the Tinkercad Design**
    - Import the `.brd` or `.sch` file into [Tinkercad Circuits](https://www.tinkercad.com/circuits).
-   - Alternatively, open the `.stl` file in [Tinkercad 3D Design](https://www.tinkercad.com/3d-design).
+
 
 2. **Upload the Code**
    - Use the provided Arduino `.ino` file in the `code` folder.
