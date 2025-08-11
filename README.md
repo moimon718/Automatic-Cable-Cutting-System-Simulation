@@ -11,9 +11,9 @@ It demonstrates how a microcontroller can control cable measurement and cutting 
 
 ## 📂 Project Structure
 /Automatic-Cable-Cutting-System-Simulation
+├── README.md # Documentation
 ├── simulation-files/ # Tinkercad exported files (.brd, .sch, .stl, etc.)
 ├── code/ # Arduino code for controlling the system
-├── README.md # Documentation
 
 markdown
 Copy
@@ -36,8 +36,8 @@ Edit
 
 ## 🛠 Technologies Used
 - **Tinkercad** (for circuit and mechanical simulation)
-- **Arduino** (for microcontroller programming)
+- **Arduino UNO** (for microcontroller programming)
 - DC motors, servo motor (for feeding and cutting mechanism)
-- Sensors (e.g., IR sensor, limit switch) for cable detection
+- Sensors (e.g., ultrasonic  sensor, slideswitch) for cable detection
 
 ---
