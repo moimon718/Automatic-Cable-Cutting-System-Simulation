@@ -19,9 +19,6 @@ markdown
 Copy
 Edit
 
-## 📷 Simulation Preview
-*(Add a screenshot of your Tinkercad simulation here)*
-
 ## 🚀 How to Use
 1. **Open the Tinkercad Design**
    - Import the `.brd` or `.sch` file into [Tinkercad Circuits](https://www.tinkercad.com/circuits).
